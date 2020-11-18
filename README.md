@@ -24,14 +24,13 @@ Then follow the following steps:
 
 2). Build the docker image.
 
-> docker-compose build
+> docker-compose build (might have to run as admin or root user based docker user access)
 
 3). Check the built image as:
 
 > docker images
 
-4). Run the containers from built image as:,  (might have to run as admin or root user based docker user access)
-
+4). Run the containers from built image as:
 > docker-compose up -d
 
 5). Check the running docker containers by command:
